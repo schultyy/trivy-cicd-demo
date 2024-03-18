@@ -1,4 +1,6 @@
 name: build
+permissions:
+  actions: read
 on:
   push:
     branches:
