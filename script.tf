@@ -51,5 +51,3 @@ resource "aws_db_instance" "vulnerable_db_instance" {
   parameter_group_name = "default.mysql5.7"
   skip_final_snapshot  = true
 }
-
-# Note: Replace the AMI ID with an outdated one specific to your region. The above ID is a placeholder.
